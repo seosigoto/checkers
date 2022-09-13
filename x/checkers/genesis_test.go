@@ -15,7 +15,8 @@ func TestGenesis(t *testing.T) {
 		Params: types.DefaultParams(),
 
 		NextGame: &types.NextGame{
-			IdValue: 1,
+			Creator: "82",
+			IdValue: 12,
 		},
 		StoredGameList: []types.StoredGame{
 			{
