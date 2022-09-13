@@ -4,7 +4,7 @@ package seosigoto.checkers.checkers;
 option go_package = "github.com/seosigoto/checkers/x/checkers/types";
 
 message StoredGame {
-  string creator = 1;
+  string creator = 1; 
   string index = 2; 
   string game = 3; 
   string turn = 4; 

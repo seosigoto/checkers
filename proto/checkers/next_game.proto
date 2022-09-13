@@ -4,6 +4,7 @@ package seosigoto.checkers.checkers;
 option go_package = "github.com/seosigoto/checkers/x/checkers/types";
 
 message NextGame {
-  uint64 idValue = 1; 
+  string creator = 1; 
+  uint64 idValue = 2; 
   
 }
